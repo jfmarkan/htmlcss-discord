@@ -11,6 +11,21 @@ body{
     color: #23272a;    
 }
 
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: 104%;
+}
+
+.navigation{
+    background-color: #255ee9;
+    height: 80px;
+}
+
+li{
+    font-weight: 400;
+    margin: 0 1.5rem;
+}
+
 h1{
     font-size: 4rem;
     text-align: center;
@@ -20,33 +35,20 @@ h1{
 .btn{
     border: none;
     border-radius: 30px;
-    padding: 1rem 2rem;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 1rem;
-}
-
-.btn-small{
-    border-radius: 30px;
+    padding: 0.5rem 1rem;
     font-size: 14px;
-    font-weight: 600;
-    margin-top: 0;
-}
-
-header{
-    background-image: url(../img/jumbo.png);
-    background-size: 104%;
-}
-
-.navbar{
-    height: 80px;
-    background-color: #255ee9;
-}
-
-nav{
-    justify-content: center;
     font-weight: 400;
 }
+
+.btn-big{
+
+}
+
+.btn-gb-darg{
+
+}
+
+
 
 p{
     font-size: 1.4rem;
@@ -55,7 +57,7 @@ p{
     font-weight: 500;
 }
 
-.flexbox{
+.flex{
     display: flex;
 }
 
@@ -77,7 +79,7 @@ p{
 
 .logo{
     flex-basis: 15%;
-    height: 41px;
+    align-items: center;
 }
 
 .border{
@@ -86,7 +88,7 @@ p{
 
 .login{
     flex-basis: 15%;
-    justify-content: end;
+    text-align: right;
 }
 
 .links{
@@ -95,7 +97,7 @@ p{
 }
 
 .container{
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
@@ -104,10 +106,6 @@ ul{
     justify-content: center;
     height: 100%;
     align-items:center;
-}
-
-li{   
-    padding: 1rem;
 }
 
 .text-white{
