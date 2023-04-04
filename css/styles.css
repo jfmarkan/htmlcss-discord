@@ -11,11 +11,6 @@ body{
     color: #23272a;    
 }
 
-header{
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-}
-
 .flex{
     display: flex;
 }
@@ -67,11 +62,14 @@ li{
 }
 
 .jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: auto;
 }
 
 .header-text{
-    padding: 6rem;
+    padding: 8rem;
 }
 
 h1{
