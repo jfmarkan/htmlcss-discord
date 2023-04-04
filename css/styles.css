@@ -8,7 +8,7 @@
 /* STYLES */
 body{
     font-family: 'Roboto', sans-serif;
-    color: #23272a;    
+    color: #23272a;
 }
 
 .flex{
@@ -143,7 +143,7 @@ p{
 }
 
 .big-article{
-
+    align-items: center;
 }
 
 .text-white{
@@ -151,11 +151,11 @@ p{
 }
 
 .odd{
-    padding: 3rem 0;
+    padding: 150px 0;
 }
 
 .even{
-    padding:3rem 0;
+    padding: 150px 0;
     background-color: #f6f6f6;
 }
 
@@ -201,3 +201,14 @@ footer{
     color: #FFF;
 }
 
+.svg-even {
+    transform: rotate(180deg);
+}
+
+img{
+    display:flex;
+}
+
+div.body-img{
+    justify-content: end;
+}
