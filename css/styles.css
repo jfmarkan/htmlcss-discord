@@ -136,6 +136,7 @@ p{
 
 .column{   
     flex-direction: column;
+    align-items: center;
 }
 
 .big-image{
@@ -211,4 +212,20 @@ img{
 
 div.body-img{
     justify-content: end;
+}
+
+.single-column{
+    text-align: center;
+}
+
+div.column button{
+    max-width: 300px;
+}
+
+h3.single-column{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 2rem;
+    padding: 5rem 7rem;
 }
