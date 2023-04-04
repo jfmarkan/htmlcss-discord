@@ -160,26 +160,19 @@ p{
     background-color: #f6f6f6;
 }
 
-
-.green-big-rectangle{
-    width:100%;
-    background-color: #228b22;
-}
-
 footer{
     background-color: #23272a;
+    padding-top: 4rem;
 }
 
 .footer-top{
     width: 25%;
-    background-color: #f08080;
-    margin: 1rem 0 2rem;
+
 }
 
-.aquamarine-rectangle{
+.footer-menu{
     width: 75%;
     align-items: stretch;
-    background-color: #20b2aa;
     margin: 1rem 0 2rem;
 }
 
@@ -207,7 +200,7 @@ footer{
 }
 
 img{
-    display:flex;
+    display: flex;
 }
 
 div.body-img{
@@ -228,4 +221,52 @@ h3.single-column{
     background-repeat: no-repeat;
     font-size: 2rem;
     padding: 5rem 7rem;
+}
+
+p.side-footer{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #7289da;
+    margin-bottom: 1rem;
+}
+
+.selector{
+    justify-content: start;
+}
+
+.flag{
+    width:35px;
+}
+
+.language{
+    font-weight: 500;
+    color: #FFF;
+    margin-left: 0.1rem;
+}
+
+.selector{
+    justify-content: 
+    start;
+}
+
+footer ul,
+footer li{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color:#FFF;
+}
+
+footer ul li:nth-of-type(1){
+    color:#7289da;
+}
+
+.footer-menu-section{
+    width: 25%;
+    
+}
+
+i{
+    color: #fff;
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
