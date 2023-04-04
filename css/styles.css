@@ -69,7 +69,7 @@ li{
 }
 
 .header-text{
-    padding: 8rem;
+    padding: 120px 0;
 }
 
 h1{
@@ -78,7 +78,7 @@ h1{
     margin-bottom: 2rem;
 }
 
-p{
+div.header-text p{
     font-size: 1.5rem;
     text-align: center;
     line-height: 2.5rem;
@@ -86,7 +86,6 @@ p{
 }
 
 .btn-big{
-
     padding: 16px 32px;
 }
 
@@ -102,39 +101,53 @@ p{
     margin: 2rem 0 4rem;
 }
 
+article{
+    margin: 0px 0;
+}
 
+.body-img{
+    width: 65%;
+}
+
+.img-text{
+    width: 35%;
+    padding: 1.5rem 0;
+}
+
+h2{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 500;
+    padding-right: 2rem;
+    line-height: 2.5rem;
+}
 
 .reverse{
     flex-direction: row-reverse;
 }
 
-
-
-
-
-
-
 .border{
     border: 1px solid #000;
 }
 
+.column{   
+    flex-direction: column;
+}
 
+.big-image{
+    width:100%;
+}
 
+.big-article{
 
-
-
+}
 
 .text-white{
     color: #FFF;
-}
-
-.carrousel{
-
-    width: 100%;
-    height: 630px;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .odd{
@@ -143,20 +156,9 @@ p{
 
 .even{
     padding:3rem 0;
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
-.rectangle-blue{
-    background-color: #1e90ff;
-
-    width: 70%;
-}
-
-.square-pink{
-    background-color: #ffc0cb;
-    height:300px;
-    width:30%;
-}
 
 .green-big-rectangle{
     width:100%;
